@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+	body {
+            font-family: Times New Roman;
+            margin:0;
+            padding:0;
+            background-color: #e6e6fa;
+	  
+        }
+        .header {
+            background-color: #ff1493;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+	.content {
+            margin: 15px;
+        }
+        .services {
+            font-family: Arial, sans-serif;
+	    background-color: #ffffff;
+            padding: 20px;
+	    text-align: center;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .prices {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+	    text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .contact {
+            font-family: Arial, sans-serif;
+            background-color: #ff1493;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .booking {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            padding: 20px;
+	    text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+        .footer {
+            background-color: #ff1493;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            margin-top: 20px;
+	}
+	.button {
+	    background-color: #04AA6D; 
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+	}
+	.submit1 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #800080;
+	}
+       .submit1:hover {
+       background-color: #800080;
+       color: white;
+	}
+       .reset {
+       background-color: white; 
+       color: black; 
+       border: 2px solid #FF00FF;
+	}
+      .reset:hover {
+      background-color: #FF00FF;
+      color: white;
+      }
+
+
+</style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Welcome to the Syniq-Nails, hair & Beauty Salon!</h1>
+    </div>
+    <div class="content">
+        <div class="services">
+            <h2>Our Services</h2>
+            <p>Here is a list of our services:</p>
+            
+                <li>Nails </li>          
+	        <li>Eyelashes </li>
+                <li>Hair Wash</li>
+		<li>Beauty</li>
+                <li>Relaxing </li>
+		<li>Hair Treatment</li>
+                <li>Braids </li>
+		<li>Snoopy </li>
+                <li>Blocks </li>
+                <li>Knotless braids</li>
+		<li>Straight Back </li>
+                <li>Straight Up </li>
+            
+        </div>
+        <div class="prices">
+            <h2>Prices</h2>
+            <p>Our prices are competitive and fair.</p>
+        </div>
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <p>You can reach us at ☎️ : (061) 616-6280 or WhatsApp: (061) 616-6280 for more information </p>
+        </div>
+        <div class="booking">
+            	<h2>Book an Appointment</h2>
+            	<form action="mailto:celesnethemba99@gmail.com" method="post" enctype="text/plain">
+	    	<form action="/action_page.php">
+                	<label for="name">Name:</label></br>
+			<input type="name" id="name" name="name" required><br>
+                	<label for="service">Service:</label><br>
+               		<select id="service" name="service">
+                    		<option value="nails">Nails</option>
+                    		<option value="eyelashes">Eyelashes</option>
+                    		<option value="relaxing">Relaxing</option>
+		    		<option value="hair wash">Hair Wash</option>
+                    		<option value="hair treatment">Hair Treatment</option>
+		    		<option value="braids">Braids</option>
+                    		<option value="snoopy">Snoopy</option>
+		    		<option value="blocks">Blocks</option>
+                    		<option value="knotless braids">Knotless Braids</option>
+ 		    		<option value="straight back">Straight Back</option>
+                    		<option value="straight up">Straight Up</option>
+                </select><br>
+                <label for="date">Date:</label><br>
+			<input type="date" id="date" name="date" required><br>
+		<label for="time">Time:</label><br>
+                	<input type="time" id="time" name="time" required><br>
+		
+			<button class="button submit1">Book Now</button>
+		<br>
+			<input type="reset" value="Clear Booking">
+		</br>		
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <p>© 2024 Beauty Salon
+</html>
